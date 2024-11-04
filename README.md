@@ -1,16 +1,26 @@
-## Hi there 👋
+<h1 align="center">Tharindu Chathuranga</h1>
+<p align="center"> 
+    <img src="https://img.shields.io/github/followers/tharinduchathuranga98?label=Followers&style=social" alt="GitHub Followers" />
+    <img src="https://img.shields.io/github/stars/tharinduchathuranga98?label=Stars" alt="GitHub Stars" />
+    <img src="https://img.shields.io/badge/Open%20Source-%E2%9D%A4-red" alt="Open Source Love" />
+</p>
 
-<!--
-**tharinduchathuranga98/tharinduchathuranga98** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+---
 
-Here are some ideas to get you started:
+### 👋 About Me
+```cpp
+#include <iostream>
+#include <vector>
+#include <string>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+class SoftwareEngineer {
+    public:
+        std::string name = "Tharindu Chathuranga";
+        std::string role = "Software Engineer";
+        std::string country = "Sri Lanka";
+        std::vector<std::string> skills = {"C++", "Python", "Java", "Kotlin", "JavaScript"};
+    
+        void display() {
+            std::cout << "Currently working on exciting projects!" << std::endl;
+        }
+};
